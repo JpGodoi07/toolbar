@@ -1,0 +1,9 @@
+<resources>
+    <string name="giovana_coppolino">toolbar</string>
+    <string name="Logar">Salvar</string>
+    <string name="turma">Turmas</string>
+    <string name="aluno">Alunos</string>
+    <string name="prof">Professores</string>
+
+
+</resources>

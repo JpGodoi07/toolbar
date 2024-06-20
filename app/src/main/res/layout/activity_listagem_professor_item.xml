@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListagemProfessorItem">
+
+    <TextView
+        android:id="@+id/txtNomeProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do professor"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageButton
+        android:id="@+id/btnEditarProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/add"
+        app:srcCompat="@drawable/ic_add"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnDeletarProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/add"
+        app:srcCompat="@drawable/ic_del"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/txtCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="43dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

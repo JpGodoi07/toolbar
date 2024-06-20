@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ListagemTurmaItem">
+
+    <TextView
+        android:id="@+id/txtNomeTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome da turma"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageButton
+        android:id="@+id/btnEditarTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/add"
+        app:srcCompat="@drawable/ic_add"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageButton
+        android:id="@+id/btnDeletarTurma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/add"
+        app:srcCompat="@drawable/ic_del"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
